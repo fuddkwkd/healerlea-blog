@@ -1,0 +1,23 @@
+title:              "Healer Lea"
+tagline:            "Do what you want"
+email:              "ryounga1114@gmail.com"
+description:        "After 10 years, people still want to be more beautiful and healthier."
+author:             "Lea Kim"
+baseurl:            "/"
+url:                "https://도메인"
+locale:             "ko_KR"
+thumbnail:          "/img/posts/01/04.png"
+
+# Social Profiles
+twitter_username:   twitter_username
+instagram_username: instagram_username
+facebook_username:  facebook_username
+linkedin_username:  linkedin_username
+
+# Build settings
+markdown:           kramdown
+permalink:          /:title
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-paginate
