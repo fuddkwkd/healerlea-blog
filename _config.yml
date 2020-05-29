@@ -14,6 +14,10 @@ instagram_username: instagram_username
 facebook_username:  facebook_username
 linkedin_username:  linkedin_username
 
+# 블로그 disqus shortname
+disqus:
+  shortname: healerlea-com
+
 # Build settings
 markdown:           kramdown
 permalink:          /:title
@@ -22,6 +26,4 @@ paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-paginate
 
-# 블로그 disqus shortname
-disqus:
-  shortname: healerlea-com
+
